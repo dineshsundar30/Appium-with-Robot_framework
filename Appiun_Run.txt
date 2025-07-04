@@ -16,3 +16,6 @@ The Appium Inspector Capabilities
   "appPackage": "com.android.contacts",
   "appActivity": "com.android.contacts.activities.PeopleActivity"
 }
+
+_____________________________________________________________________________________________
+ robot -d Output --loglevel Trace Test/Appiumtest.robot   --> basic run
