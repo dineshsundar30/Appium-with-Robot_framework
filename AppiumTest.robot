@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Our First Appium robot Test File
+Documentation    Our First Appium robot Test File To Open Application
 Library    AppiumLibrary
 
 *** Variables ***
