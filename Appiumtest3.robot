@@ -3,7 +3,7 @@ Documentation    With commom open application and running keywords if condition 
 ...   Here we have only 2 keywords in testcase but test case 2 we have some condition if that meet it automatically run the second keyword
 ...
 Library          AppiumLibrary
-Resource         ../Resources/Generic.robot
+Resource         ../Resources/Generic1.robot
 Suite Setup    Set Timeout
 Test Teardown    Close an Application
 
