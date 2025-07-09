@@ -17,5 +17,17 @@ The Appium Inspector Capabilities
   "appActivity": "com.android.contacts.activities.PeopleActivity"
 }
 
+----------------------------------------------------------------------------------------------------
+To Open and test with diffrent emulators
+:: Emulator-5554
+appium --port 4723 --default-capabilities {\"systemPort\":8200,\"udid\":\"emulator-5554\",\"automationName\":\"UiAutomator2\"}
+
+:: Emulator-5556
+appium --port 4725 --default-capabilities {\"systemPort\":8202,\"udid\":\"emulator-5556\",\"automationName\":\"UiAutomator2\"}
+
+:: Emulator-5558
+appium --port 4727 --default-capabilities {\"systemPort\":8204,\"udid\":\"emulator-5558\",\"automationName\":\"UiAutomator2\"}
+
+
 _____________________________________________________________________________________________
  robot -d Output --loglevel Trace Test/Appiumtest.robot   --> basic run
