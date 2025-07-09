@@ -20,12 +20,17 @@ The Appium Inspector Capabilities
 ----------------------------------------------------------------------------------------------------
 To Open and test with diffrent emulators
 
+Step 1 - start the emulators in the sceperate port 
+emulator -avd Pixel -port 5554
+emulator -avd Medium_Phone_API_36.0 -port 5556
+
+
+Step 2 - opening the appium for 2 emulator
 Pixel - emulator-5554
-appium --port 4723 --default-capabilities {\"systemPort\":8200,\"udid\":\"emulator-5554\",\"automationName\":\"UiAutomator2\"}
+appium --port 4723 --default-capabilities '{\"systemPort\":8200,\"udid\":\"emulator-5554\",\"automationName\":\"UiAutomator2\"}'
 
 Medium_Phone_API_36.0-emulator-5556
-appium --port 4725 --default-capabilities {\"systemPort\":8202,\"udid\":\"emulator-5556\",\"automationName\":\"UiAutomator2\"}
-
+appium --port 4725 --default-capabilities '{\"systemPort\":8202,\"udid\":\"emulator-5556\",\"automationName\":\"UiAutomator2\"}'
 
 
 _____________________________________________________________________________________________
