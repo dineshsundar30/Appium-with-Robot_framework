@@ -24,6 +24,8 @@ Step 1 - start the emulators in the sceperate port
 emulator -avd Pixel -port 5554
 emulator -avd Medium_Phone_API_36.0 -port 5556
 
+Step 2 - Opening the appium
+ appium --poart 4725
 
 Step 2 - opening the appium for 2 emulator
 Pixel - emulator-5554
