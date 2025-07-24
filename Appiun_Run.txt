@@ -29,4 +29,16 @@ appium --port 4723 --default-capabilities '{\"appium:udid\":\"emulator-5554\",\"
 appium --port 4725 --default-capabilities '{\"appium:udid\":\"emulator-5556\",\"appium:systemPort\":8202,\"appium:automationName\":\"UiAutomator2\"}'
 
 _____________________________________________________________________________________________
+To connect your mobile remotly
+
+adb start-server
+adb devices    --to verify a connecting (connect your mobile using USB) 
+adb tcpip 5555  --macking a connecting ( the mobile and laptop should be connected on same wifi) 
+adb connect wifi_ip:5555   --to create a wifi connecting
+adb devices     -- to verify a newtwork ip connecting is made or not you should see wifi_ip:5555
+now we can disconnect a usb cable
+
+
+
+----------------------------------------------------------------------------------------------------
  robot -d Output --loglevel Trace Test/Appiumtest.robot   --> basic run
