@@ -20,3 +20,9 @@ Open Android Contacts App
     Click Element    ${Contact}
     Wait Until Element Is Visible    ${Call_icon}
     Click Element    ${Call_icon}
+
+Documentation    *** Variables ***
+...  &{TestVariable}        name=dinesh    password=12345
+... *** Test Cases ***
+... Testing Variables
+...     Log To Console    ${TestVariable}[name]
