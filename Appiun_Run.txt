@@ -1,4 +1,4 @@
-------------Importent Commends---------------------
+------------Importent Commands---------------------
 appium -v  --> to check the Version
 adb devices   --> to list the connected mobile device's
 appium  --> this will give some info like appium is running port the default port is 4723 
