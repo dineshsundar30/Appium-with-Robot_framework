@@ -16,3 +16,7 @@ adb bugreport >  <path_to_save_file/bugreport>	--> same like logcat but it will 
 adb shell --> it will initiate an adb server
 adb kill-server -->  to kill the adb server 
 adb shell monkey -p <package> -v 500 --> to simulate 500 user for performance test
+
+
+adb repo link
+https://github.com/balramrexwal/adb
