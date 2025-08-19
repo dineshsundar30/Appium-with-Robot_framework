@@ -6,8 +6,6 @@ appium  --port 4725   --> this is to change appium port
 emulator -list-avds   --> to litsdown the installed emulator list 
 emulator -avd Pixel	  --> this will directly help to open our device without openiing a android studio
 
-adb repo link
-https://github.com/balramrexwal/adb
 -------------------------------------------------------
 The Appium Inspector Capabilities
 
