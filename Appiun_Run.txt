@@ -7,6 +7,9 @@ emulator -list-avds   --> to litsdown the installed emulator list
 emulator -avd Pixel	  --> this will directly help to open our device without openiing a android studio
 
 -------------------------------------------------------
+To inspect the Mobile if it's connected throught USB you can also type below cmd in your chrome and inspect in lap
+chrome://inspect/#devices
+
 The Appium Inspector Capabilities
 
 {
