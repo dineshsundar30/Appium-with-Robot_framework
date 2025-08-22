@@ -6,9 +6,12 @@ appium  --port 4725   --> this is to change appium port
 emulator -list-avds   --> to litsdown the installed emulator list 
 emulator -avd Pixel	  --> this will directly help to open our device without openiing a android studio
 
-To find the app package and activity
+To find the app package and activity 
+first open the app on emulator and run below commends
 1. adb shell
-2. dumpsys activity activities | grep mResumedActivity
+2. dumpsys activity activities | grep mResumedActivity  
+O/P - mResumedActivity: ActivityRecord{b54c0c2 u0 com.google.android.deskclock/com.android.deskclock.DeskClock t244}
+                                                      package_name                package_activity
 -------------------------------------------------------
 To inspect the Mobile if it's connected throught USB you can also type below cmd in your chrome and inspect in lap
 chrome://inspect/#devices
